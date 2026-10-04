@@ -33,3 +33,6 @@ alias mv='mv -i'
 # --- Sistema ---
 alias clr='printf "\033c"'
 alias reload='source ~/.zshrc'
+
+# --- autocommit ---
+alias gitpush='git add . && git commit -m "auto-commit: $(date "+%Y-%m-%d %H:%M:%S")" && git push'
