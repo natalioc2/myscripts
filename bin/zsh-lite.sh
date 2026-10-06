@@ -80,7 +80,7 @@ autoload -Uz compinit
 compinit -C
 
 # Cargar alias personalizados
-for file in ~/.local/myscripts/shell/*.sh(N); do
+for file in ~/.local/myscripts/aliases/*.sh(N); do
   source "$file"
 done
 
